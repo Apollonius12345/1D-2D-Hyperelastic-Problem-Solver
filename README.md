@@ -10,3 +10,18 @@ We introduce an innovative approach to address finite deformation hyperelasticit
 # What is Finite Element Analysis
 
 In the fields of engineering and materials science, solving partial differential equations (PDEs) is crucial. Because these problems are getting more complex, people often use computational methods like the Finite Element Method (FEM) to come up with approximate solutions for PDEs.
+
+## 1-D Bar Linear Elastic Method: 
+It uses Feedforward Neural Network to solve finite elemnt model problems based on 1 dimensional bar using 1D Trapezoidal numerical INtegration method. The results of this mmodel have accuracy upto 95%. It uses backpropagation method to improve its accuracy.
+
+## 1-D Axial Bar solution using strong form:
+Strong form solution of the bar is nothing but the application of Trapezoidal integration & gradient method to calculate the slope of different variables and measure the difference in their actual and prdicted values.
+
+## 1-D Axial Bar solution using weak form:
+This module uses weak form method to evaluate all the variables for the 1-D bar.
+
+## 2-D beams:
+This module helps to solve 2 Dminesionsal Hyperelastic problems using Trapeziodal, Simpson's and Montecarlo methods of Numerical INtegration. This module is also an application of Feedforward Neural Networks where the method of integration is selected as per the number of intermediate points chosen within the bar to calculate the stresses, strains and the bending of the 2 dimensional beam.
+
+## Beam Fixed on both ends:
+This module uses the same methods as stated in 2 dimensional beams to solve the "hyperelastic loaded beam fixed on both the ends" problem.
